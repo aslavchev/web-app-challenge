@@ -17,3 +17,9 @@ A GitHub Actions pipeline is included to automate testing on pull requests.
 
 ```bash
 docker-compose up --build
+
+
+### Stop docker compose Locally
+
+```bash
+docker-compose down
