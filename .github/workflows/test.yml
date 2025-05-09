@@ -27,7 +27,7 @@ jobs:
             sleep 5
           done
           echo "Health check failed"
-          docker-compose logs
+          docker compose logs
           exit 1
 
       - name: Tear down
